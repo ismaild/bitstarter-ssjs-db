@@ -14,7 +14,7 @@
 # sequelize. We can also symlink this file into the home directory.
 
 # Install postgres
-sudo apt-get install -y postgresql postgresql-contrib
+brew install postgresql
 
 # Symlink into home.
 # Note the use of backticks, PWD, and the -t flag.
